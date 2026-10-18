@@ -160,3 +160,4 @@ python -m venv .venv
 - Created public repository https://github.com/anitakapal25/document-intelligence and pushed the project to `main`, preserving the initial learning commit.
 - Audited publication candidates and existing Git history for key material; excluded `.env`, virtual environments, raw datasets, and local outputs. Included code, reviewed references, aggregate reports, synthetic examples, and the demo.
 - Added `.gitattributes` to preserve exact file bytes across clones so the frozen experiment hashes remain valid. GitHub publication hosts the source; the running Cloud Run application is still not deployed.
+- Expanded `.gitignore` for local caches, coverage/build output, database files, logs, temporary/editor files, and conventional credential files. Kept benchmark manifests/references, reports, and synthetic demo artifacts tracked; no existing tracked file required removal.
