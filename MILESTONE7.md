@@ -38,4 +38,4 @@ An experiment freeze is like locking a PHP/JS release and test fixtures: changin
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
 
-Reporting and auditing reuse saved artifacts and make no model calls. The video is a captioned explanatory slideshow using a saved real synthetic extraction, not a live UI screen recording. The report is saved locally for repository/portfolio use; nothing has been published or deployed externally.
+Reporting and auditing reuse saved artifacts and make no model calls. The video is a captioned explanatory slideshow using a saved real synthetic extraction, not a live UI screen recording. Code and portfolio artifacts are published at [anitakapal25/document-intelligence](https://github.com/anitakapal25/document-intelligence). The running application is not deployed externally.

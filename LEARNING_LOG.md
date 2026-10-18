@@ -155,3 +155,8 @@ python -m venv .venv
 - Generated field/evidence metrics, failure and absent-answer counts, latency/cost, parser-comparison summary, error review, and local DuckDB records. All 20 run schemas and 267 quotations passed the final source audit.
 - Added README/architecture, sample PDF/JSON, live demo guide, and a 48-second captioned offline MP4. See `MILESTONE7.md` and `reports/held_out.md`.
 - Thirty tests and dependency checks pass. Known final-run OpenAI cost is about $0.0571. A local PDF took over 20 minutes: async jobs or a separately validated narrower input scope are needed before claiming cloud readiness. Billing/deployment remain deferred.
+
+### 22. Publish the portfolio repository
+- Created public repository https://github.com/anitakapal25/document-intelligence and pushed the project to `main`, preserving the initial learning commit.
+- Audited publication candidates and existing Git history for key material; excluded `.env`, virtual environments, raw datasets, and local outputs. Included code, reviewed references, aggregate reports, synthetic examples, and the demo.
+- Added `.gitattributes` to preserve exact file bytes across clones so the frozen experiment hashes remain valid. GitHub publication hosts the source; the running Cloud Run application is still not deployed.
