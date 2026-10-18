@@ -1,0 +1,28 @@
+# Held-out error review (no subsequent tuning)
+
+- text / 04 / Document Name: prediction found; TP 0, FP 1, FN 1. Reference: `COMPLEHON AGREEMENT AND UQITDITV MAINTENANCE AGREEMENT`; prediction: `Completion and Liquidity Maintenance Agreement`.
+- text / 04 / Parties: prediction found; TP 1, FP 2, FN 2. Reference: `['PRIMEEVERGY CORPORATION', 'PRIME OFFSHORE L.L.C.', 'GUARANTY BANK']`; prediction: `['Prime Energy Corporation', 'Guaranty Bank, FSB', 'Prime Offshore L.L.C.']`.
+- text / 04 / Agreement Date: prediction ambiguous; TP 0, FP 0, FN 1. Reference: `2006-06-29`; prediction: `None`.
+- text / 07 / Document Name: prediction found; TP 0, FP 1, FN 1. Reference: `COOPERATION AGREEMENT`; prediction: `COOPERATION AGREEMENT BETWEEN THE CITY OF FORT STOCKTON, TEXAS AND STW RESOURCES HOLDING CORP. REGARDING DEVELOPMENT OF WATER WELL(S) IN THE CAPITAN REEF AQUIFER FORMATION`.
+- text / 07 / Parties: prediction found; TP 1, FP 1, FN 1. Reference: `['City of Fort Stockton', 'STW Resources Holding Corp']`; prediction: `['City of Fort Stockton, Texas', 'STW Resources Holding Corp.']`.
+- pdf / 00 / Document Name: prediction ambiguous; TP 0, FP 0, FN 1. Reference: `SUPPLY AGREEMENT`; prediction: `None`.
+- pdf / 00 / Parties: prediction found; TP 2, FP 2, FN 0. Reference: `['Integra LifeSciences Corporation', 'PcoMed, LLC']`; prediction: `['Integra LifeSciences Corporation', 'PcoMed, LLC', 'Integra', 'PcoMed']`.
+- pdf / 01 / Document Name: prediction ambiguous; TP 0, FP 0, FN 1. Reference: `AMENDMENT NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT`; prediction: `None`.
+- pdf / 01 / Parties: prediction found; TP 2, FP 3, FN 0. Reference: `['Columbia Laboratories, (Bermuda) Ltd.', 'Fleet Laboratories Limited']`; prediction: `['Columbia Laboratories, (Bermuda) Ltd.', 'Fleet Laboratories Limited', 'Fleet', 'Columbia', 'Juniper']`.
+- pdf / 02: `ValueError: PDF needs 88 chunks; limit is 80`.
+- pdf / 02 / Document Name: prediction processing_failed; TP 0, FP 0, FN 0. Reference: `AMENDED AND RESTATED STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT`; prediction: `None`.
+- pdf / 02 / Parties: prediction processing_failed; TP 0, FP 0, FN 0. Reference: `['PACIRA PHARMACEUTICALS, INC.', 'EKR THERAPEUTICS, INC.']`; prediction: `None`.
+- pdf / 02 / Agreement Date: prediction processing_failed; TP 0, FP 0, FN 0. Reference: `2009-10-15`; prediction: `None`.
+- pdf / 02 / Effective Date: prediction processing_failed; TP 0, FP 0, FN 0. Reference: `2007-08-10`; prediction: `None`.
+- pdf / 02 / Governing Law: prediction processing_failed; TP 0, FP 0, FN 0. Reference: `New York, US`; prediction: `None`.
+- pdf / 03 / Parties: prediction found; TP 4, FP 2, FN 0. Reference: `['Photronics, Inc.', 'Dai Nippon Printing Co., Ltd.', 'Photronics DNP Photomask Corporation', 'Xiamen American Japan Photronics Mask Co., Ltd.']`; prediction: `['Photronics, Inc.', 'Dai Nippon Printing Co., Ltd.', 'Photronics DNP Photomask Corporation', 'Xiamen American Japan Photronics Mask Co., Ltd.', 'Photronics DNP Mask Corporation', 'Photronics DNP Mask Corporation Xiamen']`.
+- pdf / 03 / Effective Date: prediction found; TP 0, FP 1, FN 0. Reference: `None`; prediction: `2017-05-16`.
+- pdf / 04 / Document Name: prediction found; TP 0, FP 1, FN 1. Reference: `COMPLEHON AGREEMENT AND UQITDITV MAINTENANCE AGREEMENT`; prediction: `Completion Agreement and Liquidity Maintenance Agreement`.
+- pdf / 04 / Parties: prediction found; TP 2, FP 2, FN 1. Reference: `['PRIMEEVERGY CORPORATION', 'PRIME OFFSHORE L.L.C.', 'GUARANTY BANK']`; prediction: `['PRIMEEVERGY CORPORATION', 'Guaranty', 'Offshore', 'PRIME OFFSHORE L.L.C.']`.
+- pdf / 05 / Document Name: prediction ambiguous; TP 0, FP 0, FN 1. Reference: `Manufacturing and Supply Agreement`; prediction: `None`.
+- pdf / 05 / Parties: prediction found; TP 2, FP 2, FN 0. Reference: `['VAPOTHERM, INC.', 'MEDICA S.p.A.']`; prediction: `['VAPOTHERM, INC.', 'MEDICA, S.p.A.', 'Vapotherm', 'Medica']`.
+- pdf / 06 / Document Name: prediction ambiguous; TP 0, FP 0, FN 1. Reference: `Sales, Marketing, Distribution, and Supply Agreement`; prediction: `None`.
+- pdf / 06 / Parties: prediction found; TP 2, FP 2, FN 0. Reference: `['Hemispherx Biopharma, Inc.', 'Scientific Products Pharmaceutical Co. LTD.']`; prediction: `['HEMISPHERX', 'Scientific Products Pharmaceutical Co. LTD', 'SCIEN', 'HEMISPHERX BIOPHARMA, INC']`.
+- pdf / 07 / Parties: prediction found; TP 2, FP 4, FN 0. Reference: `['City of Fort Stockton', 'STW Resources Holding Corp']`; prediction: `['City of Fort Stockton, Texas', 'STW Resources Holding Corp.', 'COFS', 'STW', 'STW Resources', 'City of Fort Stockton']`.
+- pdf / 08 / Document Name: prediction ambiguous; TP 0, FP 0, FN 1. Reference: `HOSTING AGREEMENT`; prediction: `None`.
+- pdf / 09 / Effective Date: prediction ambiguous; TP 0, FP 0, FN 1. Reference: `2012-07-16`; prediction: `None`.

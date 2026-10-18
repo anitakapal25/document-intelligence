@@ -1,0 +1,227 @@
+{
+  "dataset": "CUAD v1",
+  "source_split": "train",
+  "seed": 42,
+  "contracts": [
+    {
+      "title": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT",
+      "text_sha256": "b4e0eee75a3181c8a42ce334f76eba54ae958ae053fbb076674e0d437bcfa17f",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",
+      "text_sha256": "b0e5d7895b905a1b526f742c3ab764307df52c56b8d46f51c70f1e3a01c68ab1",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": false,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3",
+      "text_sha256": "cb4ee0f19d4ace4575faf5ec77f735ee21c5b74e2842f0e9a16ce57a75db0e46",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": false,
+        "Agreement Date": false,
+        "Effective Date": false,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1",
+      "text_sha256": "5aac93384471a42e124eee3087f24c67ca74c8c9f08cfa6e095a23ac93b23651",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": false,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT",
+      "text_sha256": "88e44c09765595e4c18c2d07f14f9d07f8496bfecebd58e9f33301293cbb5cc3",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": false,
+        "Governing Law": false
+      }
+    },
+    {
+      "title": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement",
+      "text_sha256": "b19ff4167879a7f0340cba732aef3b4e14b0680b3ff9d5bcd3dd0388a2bf42be",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": false,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement",
+      "text_sha256": "3a9b7dcdb54ec4c9e46d0eddce7e834dc269b6c12898ced1bf69cddeb025dbcb",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": false,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement",
+      "text_sha256": "69db90a30e3cb7a47ba8a85166f33e5b2da54ee013f60dd96039eb82a4d0bf58",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": false
+      }
+    },
+    {
+      "title": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules",
+      "text_sha256": "3c2c58108bb6dc8c85015f800aff9d813aa68833175f619552e7674fe59302e6",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": false,
+        "Effective Date": true,
+        "Governing Law": false
+      }
+    },
+    {
+      "title": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2",
+      "text_sha256": "6f2590f7b708dd6ac5a22cbff52c5526bfc7c50f3ef39d39b11afe829ab213e8",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": false,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement",
+      "text_sha256": "aa6db85d66ee806f951f014c4676b0d24e7930281aca6a39b3fa41b47e998644",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT",
+      "text_sha256": "53e2319c9bee9f99e4f3745d7aa2f367be7ff78affa9c9edccce41ba14fbf28f",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": false,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT",
+      "text_sha256": "5c8fa8631c5f1b50be86213eb8cbaf10aa971528bd29d155d10e647996185f6d",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": false,
+        "Governing Law": false
+      }
+    },
+    {
+      "title": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement",
+      "text_sha256": "d38516c19e4fc67df7fb47340ba364637eecb61c8c3b76bfda34eedf1c06f76e",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": false,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT",
+      "text_sha256": "6e8b3a1f460cd80160707c80315f164288a7f60c293fd22cd510ec9b34feb8ad",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT",
+      "text_sha256": "033e782bba46fe6d7e90134f8f58dd2eacaa77f3a752eb0eb8304576a96310b2",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",
+      "text_sha256": "017049f32da2a20ad89986057bebc59875dccbc674082abbd4a85705f4db5195",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": false,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement",
+      "text_sha256": "3a52f1f5052d76342936157414bff1bf98bc0d793bd7f2052273b3185de1a762",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2",
+      "text_sha256": "662ee760da137e4113881629a1c72cf8a3ffba20bd6fd2c0bb766bfed3dcf9ed",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    },
+    {
+      "title": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT",
+      "text_sha256": "30b165d2aa2e9d5e4dedf39e27fe7e24116346b0a065f4d67966af9e137b0038",
+      "annotated_fields": {
+        "Document Name": true,
+        "Parties": true,
+        "Agreement Date": true,
+        "Effective Date": true,
+        "Governing Law": true
+      }
+    }
+  ]
+}

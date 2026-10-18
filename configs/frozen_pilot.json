@@ -1,0 +1,30 @@
+{
+  "purpose": "pilot held-out evaluation; change requires a new development experiment",
+  "primary_parser": "docling",
+  "comparison_parser": "llamaparse",
+  "configuration": {
+    "model": "gpt-6-luna",
+    "prompt_version": "text-v2",
+    "prompt_sha256": "8d206b40b6379f8bfd0b0c1e4db984a7a05cf788ccd705ca4dff70371e1e5426",
+    "schema_sha256": "e1b7536137707ada82e25840429b3aa70c47160896f814649767465cc695364c",
+    "workflow_sha256": "227a78836a8773d1b0421646fa9bea709a066aa6058ae62589913e98e597512d",
+    "scorer_sha256": "df04708eb8e4cdd07a24ec49aa5bf3de163e2ec529b208beb526f3d2b2c5e523",
+    "chunk_size": 3000,
+    "chunk_overlap": 200,
+    "max_chunks": 80,
+    "docling_version": "2.140.0",
+    "llamacloud_version": "2.18.0",
+    "llamaparse_tier": "cost_effective",
+    "llamaparse_version": "2026-09-28"
+  },
+  "source_sha256": {
+    "app/extractor.py": "299204c8678c43521bbf845239fd7976aba28123788d645073bfbb7ca2932314",
+    "app/parsers.py": "4ea29bf2c2176ba8a7976147d50f498363bd73ae7a5b8349bd1cd3120cc89948",
+    "app/pdf_workflow.py": "227a78836a8773d1b0421646fa9bea709a066aa6058ae62589913e98e597512d",
+    "app/schemas.py": "7a616ec778ecd47399bb7dfcb28af3146736b9e4e3a41df15c409e5cbe5fdd9b",
+    "app/evidence.py": "36c9e077d8bc90d6df132988cc3929a0415bf3f431e050ffac2e9f790d5ec4f8",
+    "app/evaluation.py": "df04708eb8e4cdd07a24ec49aa5bf3de163e2ec529b208beb526f3d2b2c5e523",
+    "manifests/development.json": "8e8d9224cfb111d1146dc43e5670662535a36bde99f4d37c723ffc6e5ef1381f",
+    "manifests/held_out.json": "cec6de21d58d9613001a4a48307c5381e715bda0810608829aef3f67f64fd88c"
+  }
+}

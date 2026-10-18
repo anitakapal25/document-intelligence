@@ -1,0 +1,939 @@
+{
+  "source_split": "test",
+  "review": "Agent-reviewed against CUAD spans and source context before predictions; no independent human adjudication.",
+  "policy": "Collapse aliases/former names to legal entities. Retain CUAD OCR spellings and annotated title extent. Absent annotations remain missing; not proof that the full contract lacks a clause. Incomplete dates are ambiguous. Unsupported frozen jurisdictions are unscorable.",
+  "contracts": [
+    {
+      "title": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "SUPPLY AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 292,
+              "end": 308,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Integra LifeSciences Corporation",
+            "PcoMed, LLC"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 551,
+              "end": 557,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 410,
+              "end": 442,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 410,
+              "end": 417,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 551,
+              "end": 562,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2013-05-15",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 350,
+              "end": 371,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2013-05-15",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 350,
+              "end": 371,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Effective Date"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "unscorable",
+          "value": "New Jersey, US",
+          "note": "Jurisdiction is absent from the frozen scorer lookup; excluded before predictions, not an extraction error.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 62360,
+              "end": 62462,
+              "qa_id": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT__Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "AMENDMENT NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 372,
+              "end": 425,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Columbia Laboratories, (Bermuda) Ltd.",
+            "Fleet Laboratories Limited"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 855,
+              "end": 860,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 855,
+              "end": 881,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 642,
+              "end": 650,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 642,
+              "end": 679,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Only 2018 is supplied for this amendment; older dates refer to other agreements.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 1081,
+              "end": 1085,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Only a year is supplied.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 1081,
+              "end": 1085,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Effective Date"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "England and Wales",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 43626,
+              "end": 43866,
+              "qa_id": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT__Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT ",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "AMENDED AND RESTATED STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 322,
+              "end": 400,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "PACIRA PHARMACEUTICALS, INC.",
+            "EKR THERAPEUTICS, INC."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 166,
+              "end": 194,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 201,
+              "end": 204,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 201,
+              "end": 223,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 574,
+              "end": 596,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 748,
+              "end": 751,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2009-10-15",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 431,
+              "end": 447,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2007-08-10",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 1389,
+              "end": 1404,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Effective Date"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "New York, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 118160,
+              "end": 118516,
+              "qa_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT __Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "OUTSOURCING AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 64,
+              "end": 85,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Photronics, Inc.",
+            "Dai Nippon Printing Co., Ltd.",
+            "Photronics DNP Photomask Corporation",
+            "Xiamen American Japan Photronics Mask Co., Ltd."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 178,
+              "end": 194,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 719,
+              "end": 723,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 732,
+              "end": 779,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 1056,
+              "end": 1399,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 325,
+              "end": 354,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 178,
+              "end": 188,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 583,
+              "end": 590,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 486,
+              "end": 522,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 478,
+              "end": 481,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2017-05-16",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 140,
+              "end": 163,
+              "qa_id": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        }
+      }
+    },
+    {
+      "title": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "COMPLEHON AGREEMENT AND UQITDITV MAINTENANCE AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 65,
+              "end": 119,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "PRIMEEVERGY CORPORATION",
+            "PRIME OFFSHORE L.L.C.",
+            "GUARANTY BANK"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 304,
+              "end": 309,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 4711,
+              "end": 4734,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 4825,
+              "end": 4846,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 254,
+              "end": 262,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 233,
+              "end": 246,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 292,
+              "end": 300,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2006-06-29",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 177,
+              "end": 190,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2006-06-29",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 177,
+              "end": 190,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Effective Date"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Texas, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 4395,
+              "end": 4645,
+              "qa_id": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT__Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "VAPOTHERM, INC. - Manufacturing and Supply Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Manufacturing and Supply Agreement",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 73890,
+              "end": 73924,
+              "qa_id": "VAPOTHERM, INC. - Manufacturing and Supply Agreement__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "VAPOTHERM, INC.",
+            "MEDICA S.p.A."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 327,
+              "end": 342,
+              "qa_id": "VAPOTHERM, INC. - Manufacturing and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 3745,
+              "end": 3758,
+              "qa_id": "VAPOTHERM, INC. - Manufacturing and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 2610,
+              "end": 2619,
+              "qa_id": "VAPOTHERM, INC. - Manufacturing and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 1774,
+              "end": 1780,
+              "qa_id": "VAPOTHERM, INC. - Manufacturing and Supply Agreement__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2013-01-01",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 3660,
+              "end": 3677,
+              "qa_id": "VAPOTHERM, INC. - Manufacturing and Supply Agreement__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "New York, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 66274,
+              "end": 66394,
+              "qa_id": "VAPOTHERM, INC. - Manufacturing and Supply Agreement__Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Sales, Marketing, Distribution, and Supply Agreement",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 30966,
+              "end": 31018,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Hemispherx Biopharma, Inc.",
+            "Scientific Products Pharmaceutical Co. LTD."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 41366,
+              "end": 41409,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 40166,
+              "end": 40192,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 37635,
+              "end": 37677,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 410,
+              "end": 415,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 37681,
+              "end": 37706,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 85,
+              "end": 95,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2016-03-31",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 37886,
+              "end": 37893,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Last signature is March 31, 2016, but main agreement also requires receipt of all counterparts; no receipt date is supplied.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 43785,
+              "end": 44150,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Effective Date"
+            },
+            {
+              "paragraph": 0,
+              "start": 36459,
+              "end": 36672,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Effective Date"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "unscorable",
+          "value": "Delaware, US",
+          "note": "Jurisdiction is absent from the frozen scorer lookup; excluded before predictions, not an extraction error.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 34293,
+              "end": 34586,
+              "qa_id": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement__Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "COOPERATION AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 15,
+              "end": 36,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "City of Fort Stockton",
+            "STW Resources Holding Corp"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 321,
+              "end": 342,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 383,
+              "end": 391,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 396,
+              "end": 422,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 446,
+              "end": 453,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 528,
+              "end": 639,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Notary and signature dates are blank except year 2014.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 27078,
+              "end": 27091,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Depends on last signature; signature dates are blank.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 455,
+              "end": 526,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Effective Date"
+            },
+            {
+              "paragraph": 0,
+              "start": 27078,
+              "end": 27091,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Effective Date"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Texas, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 19804,
+              "end": 20017,
+              "qa_id": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT__Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "HOSTING AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 7575,
+              "end": 7592,
+              "qa_id": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "eGain Communications Corporation",
+            "Eliance Corporation"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 191,
+              "end": 196,
+              "qa_id": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 191,
+              "end": 223,
+              "qa_id": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 238,
+              "end": 257,
+              "qa_id": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 260,
+              "end": 268,
+              "qa_id": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "California, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 17241,
+              "end": 17391,
+              "qa_id": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT__Governing Law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "SPONSORSHIP AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 31,
+              "end": 52,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Document Name"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "PEEK Investments LLC",
+            "Platinum Partners Value Arbitrage Fund L.P.",
+            "Snowy August Fund I LP"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 165,
+              "end": 185,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 226,
+              "end": 235,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 243,
+              "end": 310,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 25510,
+              "end": 25553,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 25777,
+              "end": 25799,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Parties"
+            },
+            {
+              "paragraph": 0,
+              "start": 321,
+              "end": 328,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Parties"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2012-07-16",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 4725,
+              "end": 4738,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Agreement Date"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2012-07-16",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 26,
+              "end": 331,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Effective Date"
+            },
+            {
+              "paragraph": 0,
+              "start": 4725,
+              "end": 4738,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Effective Date"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "New York, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 19880,
+              "end": 20255,
+              "qa_id": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT__Governing Law"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

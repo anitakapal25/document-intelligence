@@ -1,0 +1,12 @@
+# Upload only the runtime build context; never upload local keys or datasets.
+**
+!.gcloudignore
+!.dockerignore
+!Dockerfile
+!requirements-runtime.txt
+!app/
+!app/**
+!configs/
+!configs/allowed_pdfs.json
+app/**/__pycache__/
+app/**/*.pyc

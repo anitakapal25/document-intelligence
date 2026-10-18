@@ -1,0 +1,8 @@
+openai==2.54.0
+pydantic==2.14.1
+docling==2.140.0
+llama-index-core==0.14.25
+fastapi==0.143.3
+uvicorn==0.54.0
+python-multipart==0.0.32
+google-cloud-firestore==2.34.0

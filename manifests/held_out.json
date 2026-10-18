@@ -1,0 +1,47 @@
+{
+  "dataset": "CUAD v1",
+  "source_split": "test",
+  "seed": 42,
+  "contracts": [
+    {
+      "title": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLY AGREEMENT",
+      "text_sha256": "39f20f680e6814ef67848874d9ec0421094ae310cf47401616ef0fe776541fea"
+    },
+    {
+      "title": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+      "text_sha256": "829347914e63de5f852a1fb44ed393e47dd616193f467c4428ad81939f986de8"
+    },
+    {
+      "title": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT ",
+      "text_sha256": "2456dbd582b4976bedec1d7f5da58dd1ab7c8b015fb8c9b57d8f2375800e77f0"
+    },
+    {
+      "title": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement",
+      "text_sha256": "346c26f8424e7b213c37d7913baf5dac21f0b828edbdbb30d8734a54872c6ce1"
+    },
+    {
+      "title": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT",
+      "text_sha256": "24ef6f93704a040037a4212d5869dce5998f3da7fbdf6d208a9712b3339e767c"
+    },
+    {
+      "title": "VAPOTHERM, INC. - Manufacturing and Supply Agreement",
+      "text_sha256": "6dc92b9dd0df201173143ab6aa4091727e98f202fa12a06647c545d37dc69bfe"
+    },
+    {
+      "title": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement",
+      "text_sha256": "c929ef4f55561c964db1c7c26bb49753b051acfda176ee189345cf32ccd570d0"
+    },
+    {
+      "title": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT",
+      "text_sha256": "583eeeb1b757837523ffa5f7ae0e073185e51c40bcd6ead5d5bcc70907b7b105"
+    },
+    {
+      "title": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT",
+      "text_sha256": "f1780fc98ea88daae9726ff3c87b443790e09ab9fbf6e4618e23fa25d8d1bd2e"
+    },
+    {
+      "title": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT",
+      "text_sha256": "1c5876ca665fcbe50c1c1a4f5bcda77d6de188a830b291c31a2f336df8735921"
+    }
+  ]
+}

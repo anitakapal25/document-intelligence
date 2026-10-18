@@ -1,0 +1,110 @@
+{
+  "purpose": "exact-byte CUAD/synthetic pilot allowlist",
+  "contracts": [
+    {
+      "document_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT",
+      "sha256": "e03d0686cb142eb38bab976194a7451a33601659ba0725e50f41e000d73a93b4",
+      "bytes": 77466
+    },
+    {
+      "document_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",
+      "sha256": "cb6fc82aad968eb4fa09205a2401fb2c50aa3af76135c6bf6f1cae8dcf3837b3",
+      "bytes": 2881262
+    },
+    {
+      "document_id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3",
+      "sha256": "ef9e9ec52a71f617e360b3b3210f97eb9bb5da2385461c6f2334ed7044a943af",
+      "bytes": 113398
+    },
+    {
+      "document_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1",
+      "sha256": "a062c0d4fdaa3213b6638704171de288dd6d885901d13c21359a86f7cb9df184",
+      "bytes": 224717
+    },
+    {
+      "document_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT",
+      "sha256": "b7fa3791ee5448d03c477d5656bd0bf5f790260460beed9b02ffba6563e61f75",
+      "bytes": 73462
+    },
+    {
+      "document_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement",
+      "sha256": "594765b113dee282b0daccfdf0e3402cce747d7012fb4ab9915382232fd1363a",
+      "bytes": 105016
+    },
+    {
+      "document_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement",
+      "sha256": "06c01ec95512aca3c7e67cc6aaf99fe121c6ab50db7fb7c8d1f3797dad2f0098",
+      "bytes": 361141
+    },
+    {
+      "document_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement",
+      "sha256": "0bc652ae6ab3a7a3c6415671980b954c4acabf5aa5f05e6a298d419160c09508",
+      "bytes": 159195
+    },
+    {
+      "document_id": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules",
+      "sha256": "f28f6a6871f5df6db523cc87fbc6a53b44e1b2a67a36ff39c421c910369fd373",
+      "bytes": 67003
+    },
+    {
+      "document_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2",
+      "sha256": "92c7824033caca7990e5a2a047f1c7fa3fb5197ac23050c54f30ab8e9d8d5f62",
+      "bytes": 107292
+    },
+    {
+      "document_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement",
+      "sha256": "f8d3645cbe61a17aa12b674c7d976683280319c14b2d0bb05345fe7cc111652d",
+      "bytes": 366384
+    },
+    {
+      "document_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT",
+      "sha256": "1967e1f1258c254f4dbb340bcc25e64c5f78c6ed907da3681497e7775f145aa7",
+      "bytes": 83089
+    },
+    {
+      "document_id": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT",
+      "sha256": "2ef8427550019e9ce3da35ae9f75af6e9cd16de7cc69745ec5774802c81f5b20",
+      "bytes": 94305
+    },
+    {
+      "document_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement",
+      "sha256": "5850e801153af9b95cc558739ba1aef8d094042edf928163c8bbf5f8f00ef746",
+      "bytes": 216322
+    },
+    {
+      "document_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT",
+      "sha256": "80214dedfaadf17b98d084bcb66e9b543c63ec6b90f492966d37f407b36c29e8",
+      "bytes": 137253
+    },
+    {
+      "document_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT",
+      "sha256": "9b112ddd27213a20ff9545d4b5ffb5f9a8f1a600d2e3add1772170869cb168da",
+      "bytes": 81977
+    },
+    {
+      "document_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",
+      "sha256": "ccc177274c77f9ab1c19b8f83bf1faa5e337267f797af5880bfcf40a290fb9f9",
+      "bytes": 85361
+    },
+    {
+      "document_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement",
+      "sha256": "12750d64058315ed46eece50e6b864b9cdc285278392e7bbae3fd549adf9f2af",
+      "bytes": 191632
+    },
+    {
+      "document_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2",
+      "sha256": "8160e0472b7ba8fe90057d0f1fbb0ff7d0eae441317891219227aa61cb313ae3",
+      "bytes": 193120
+    },
+    {
+      "document_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT",
+      "sha256": "1897bb6e64c8d5ee09eee7e6fe64be7625d23fe777c7b9ba91671bcdff98ecef",
+      "bytes": 88145
+    },
+    {
+      "document_id": "synthetic-sample-agreement",
+      "sha256": "9449733bee1543261e1d03a54156145b26430b052ae39f977b43cccbca090b82",
+      "bytes": 1017
+    }
+  ]
+}

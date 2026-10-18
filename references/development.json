@@ -1,0 +1,1682 @@
+{
+  "source_split": "train",
+  "contracts": [
+    {
+      "title": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "DISTRIBUTOR AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 44,
+              "end": 65,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Electric City Corp.",
+            "Electric City of Illinois LLC"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 244,
+              "end": 255,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 49574,
+              "end": 49606,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 212,
+              "end": 241,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 197,
+              "end": 204,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Parties_3"
+            },
+            {
+              "paragraph": 0,
+              "start": 148,
+              "end": 167,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Parties_4"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "1999-09-07",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 263,
+              "end": 290,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Commencement depends on delivery of the last Sample; immediate-effect clause does not establish a calendar date.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 31058,
+              "end": 31270,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Effective Date_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 5268,
+              "end": 5541,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Effective Date_1"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Illinois, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 52061,
+              "end": 52151,
+              "qa_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Promotion and Distribution Agreement",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 307,
+              "end": 343,
+              "qa_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Google Inc",
+            "Whitesmoke Inc."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 644,
+              "end": 650,
+              "qa_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 625,
+              "end": 636,
+              "qa_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 644,
+              "end": 654,
+              "qa_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 492,
+              "end": 507,
+              "qa_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2011-08-01",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 430,
+              "end": 443,
+              "qa_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "England and Wales",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 41315,
+              "end": 41644,
+              "qa_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Attachment C to Master Franchise Agreement MULTI-STATE ADDENDUM CALIFORNIA APPENDIX",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 0,
+              "end": 87,
+              "qa_id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Agreement Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "New York, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 1791,
+              "end": 1867,
+              "qa_id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "DOMAIN NAME AND CONTENT LICENSE AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 51,
+              "end": 92,
+              "qa_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Beijing Yisheng Leju Information Services Co., Ltd.",
+            "Beijing SINA Internet Information Service Co., Ltd."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 372,
+              "end": 380,
+              "qa_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 387,
+              "end": 438,
+              "qa_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 528,
+              "end": 600,
+              "qa_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 201,
+              "end": 252,
+              "qa_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Effective Date is defined by a different agreement's Closing Date.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 4986,
+              "end": 5071,
+              "qa_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "China (PRC)",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 40695,
+              "end": 41015,
+              "qa_id": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement1__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "JOINT FILING STATEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 44,
+              "end": 66,
+              "qa_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "SCULPTOR MANAGEMENT, INC.",
+            "SCULPTOR CAPITAL LP",
+            "SCULPTOR CAPITAL HOLDING CORPORATION",
+            "SCULPTOR MASTER FUND LTD"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 1030,
+              "end": 1055,
+              "qa_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 859,
+              "end": 878,
+              "qa_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 936,
+              "end": 972,
+              "qa_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 1113,
+              "end": 1137,
+              "qa_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2020-04-08",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 845,
+              "end": 858,
+              "qa_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        }
+      }
+    },
+    {
+      "title": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "DISTRIBUTION AND SERVICES AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 0,
+              "end": 35,
+              "qa_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Integrity Short Term Government Fund",
+            "Integrity Funds Distributor, LLC"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 157,
+              "end": 166,
+              "qa_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 157,
+              "end": 193,
+              "qa_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 189,
+              "end": 193,
+              "qa_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 355,
+              "end": 387,
+              "qa_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2020-01-18",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 36,
+              "end": 52,
+              "qa_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2020-01-18",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 0,
+              "end": 52,
+              "qa_id": null,
+              "origin": "manual_review"
+            },
+            {
+              "paragraph": 0,
+              "start": 23539,
+              "end": 23586,
+              "qa_id": null,
+              "origin": "manual_review"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Kansas, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 22796,
+              "end": 22881,
+              "qa_id": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "TRANSITION SERVICES AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 46,
+              "end": 75,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Reynolds Consumer Products Inc.",
+            "Reynolds Group Holdings Inc."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 192,
+              "end": 223,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 125,
+              "end": 153,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 275,
+              "end": 455,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 249,
+              "end": 273,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Parties_3"
+            },
+            {
+              "paragraph": 0,
+              "start": 180,
+              "end": 184,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Parties_4"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Day is redacted in the annotated agreement date.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 106,
+              "end": 115,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Illinois, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 60694,
+              "end": 61066,
+              "qa_id": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "JACKSONVILLE JAGUARS SPONSORSHIP AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 15,
+              "end": 57,
+              "qa_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "The ARC Group, Inc.",
+            "Jacksonville Jaguars, LLC"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 250,
+              "end": 254,
+              "qa_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 262,
+              "end": 281,
+              "qa_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 184,
+              "end": 209,
+              "qa_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 65,
+              "end": 72,
+              "qa_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2017-11-27",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 128,
+              "end": 145,
+              "qa_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2018-04-01",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 1383,
+              "end": 1396,
+              "qa_id": "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        }
+      }
+    },
+    {
+      "title": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Maintenance and support contract",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 126,
+              "end": 158,
+              "qa_id": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Sicap Ltd",
+            "EuroTel"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 765,
+              "end": 774,
+              "qa_id": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 666,
+              "end": 673,
+              "qa_id": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules__Parties_1"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2000-10-10",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 290,
+              "end": 311,
+              "qa_id": null,
+              "origin": "manual_review"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2000-10-06",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 29348,
+              "end": 29434,
+              "qa_id": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        }
+      }
+    },
+    {
+      "title": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "AFFILIATE OFFICE AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 100,
+              "end": 126,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Payment Data Systems, Inc.",
+            "NETWORK 1 FINANCIAL, INC."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 100,
+              "end": 109,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 40,
+              "end": 49,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 363,
+              "end": 391,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 182,
+              "end": 208,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Annotated agreement date is an unfilled template.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 25832,
+              "end": 25896,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "unscorable",
+          "value": null,
+          "note": "CUAD Governing Law spans describe two arbitration locations, not a governing-law clause.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 25008,
+              "end": 25179,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Governing Law_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 24826,
+              "end": 25007,
+              "qa_id": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2__Governing Law_1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "MASTER OPERATION AND MAINTENANCE AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 3409,
+              "end": 3451,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "DIAMOND STATE GENERATION PARTNERS, LLC",
+            "BLOOM ENERGY CORPORATION"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 3608,
+              "end": 3610,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 328,
+              "end": 366,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 1676,
+              "end": 1684,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 1688,
+              "end": 1693,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Parties_3"
+            },
+            {
+              "paragraph": 0,
+              "start": 373,
+              "end": 397,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Parties_4"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2012-04-13",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 411,
+              "end": 425,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Term starts with a future warranty-period event.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 52886,
+              "end": 53310,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "New York, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 81631,
+              "end": 81850,
+              "qa_id": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "SUPPLY AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 14,
+              "end": 30,
+              "qa_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "CREMER OLEO GmbH & Co KG",
+            "Ultragenyx Pharmaceutical Inc"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 143,
+              "end": 149,
+              "qa_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 41,
+              "end": 65,
+              "qa_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 158,
+              "end": 168,
+              "qa_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 158,
+              "end": 187,
+              "qa_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2012-11-19",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 13733,
+              "end": 13753,
+              "qa_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2012-11-19",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 9392,
+              "end": 9458,
+              "qa_id": null,
+              "origin": "manual_review"
+            },
+            {
+              "paragraph": 0,
+              "start": 13724,
+              "end": 13753,
+              "qa_id": null,
+              "origin": "manual_review"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Germany",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 11656,
+              "end": 11853,
+              "qa_id": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Strategic Alliance Agreement",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 2366,
+              "end": 2394,
+              "qa_id": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "UTEK Corporation",
+            "Manakoa Services Corporation"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 145,
+              "end": 161,
+              "qa_id": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 271,
+              "end": 275,
+              "qa_id": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 145,
+              "end": 149,
+              "qa_id": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 240,
+              "end": 268,
+              "qa_id": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2006-06-14",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 109,
+              "end": 128,
+              "qa_id": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Governing Law": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        }
+      }
+    },
+    {
+      "title": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "PRODUCT MANUFACTURING AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 230,
+              "end": 261,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "KITOV Pharma Ltd.",
+            "DEXCEL LTD."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 433,
+              "end": 450,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 551,
+              "end": 556,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 420,
+              "end": 426,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 560,
+              "end": 642,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Parties_3"
+            },
+            {
+              "paragraph": 0,
+              "start": 361,
+              "end": 372,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Parties_4"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "missing",
+          "value": null,
+          "source_spans": []
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Effective date is the last party's signature date, which is not provided in the annotated span.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 5311,
+              "end": 5405,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Israel",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 51559,
+              "end": 51717,
+              "qa_id": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "CONSULTING AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 135,
+              "end": 155,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Kiromic, Inc",
+            "Gianluca Rotino"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 205,
+              "end": 217,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 248,
+              "end": 255,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 172,
+              "end": 187,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 360,
+              "end": 370,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2018-07-20",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 157,
+              "end": 170,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2018-07-01",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 14454,
+              "end": 14513,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Texas, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 12387,
+              "end": 12508,
+              "qa_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "SERVICES AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 0,
+              "end": 18,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "PFS Funds",
+            "Potomac Fund Management, Inc."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 228,
+              "end": 233,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 273,
+              "end": 302,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 212,
+              "end": 221,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 309,
+              "end": 316,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2020-06-24",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 189,
+              "end": 202,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2020-06-24",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 189,
+              "end": 202,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Massachusetts, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 14318,
+              "end": 14439,
+              "qa_id": "PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Strategic Alliance Agreement",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 15,
+              "end": 43,
+              "qa_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "Bravatek Solutions, Inc.",
+            "Sibannac, Inc."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 133,
+              "end": 157,
+              "qa_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 341,
+              "end": 348,
+              "qa_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 324,
+              "end": 338,
+              "qa_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 133,
+              "end": 141,
+              "qa_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2017-11-30",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 91,
+              "end": 117,
+              "qa_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2017-11-30",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 8002,
+              "end": 8123,
+              "qa_id": null,
+              "origin": "manual_review"
+            },
+            {
+              "paragraph": 0,
+              "start": 8328,
+              "end": 8351,
+              "qa_id": null,
+              "origin": "manual_review"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Texas, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 6472,
+              "end": 6594,
+              "qa_id": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "DISTRIBUTORSHIP AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 45,
+              "end": 70,
+              "qa_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Distributor's legal name and both dates are blank in this template.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 182,
+              "end": 199,
+              "qa_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 480,
+              "end": 491,
+              "qa_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 182,
+              "end": 187,
+              "qa_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement__Parties_2"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Agreement date is blank.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 130,
+              "end": 142,
+              "qa_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "ambiguous",
+          "value": null,
+          "note": "Effective date is blank.",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 130,
+              "end": 142,
+              "qa_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "California, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 45546,
+              "end": 45732,
+              "qa_id": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "Amendment n\ufffd 01 to the Global Maintenance Agreement ref. DS/C-3957/14 Issue 7",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 23,
+              "end": 102,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "AZUL LINHAS A\ufffdREAS BRASILEIRAS S/A",
+            "AVIONS DE TRANSPORT REGIONAL, G.I.E"
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 139,
+              "end": 143,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 139,
+              "end": 173,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 224,
+              "end": 227,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 1686,
+              "end": 1770,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Parties_3"
+            },
+            {
+              "paragraph": 0,
+              "start": 180,
+              "end": 215,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Parties_4"
+            },
+            {
+              "paragraph": 0,
+              "start": 1262,
+              "end": 1269,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Parties_5"
+            },
+            {
+              "paragraph": 0,
+              "start": 1645,
+              "end": 1655,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Parties_6"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "2016-01-06",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 801,
+              "end": 818,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "2016-01-06",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 4529,
+              "end": 4772,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Effective Date_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 801,
+              "end": 818,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Effective Date_1"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "New York, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 11185,
+              "end": 11879,
+              "qa_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2__Governing Law_0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT",
+      "fields": {
+        "Document Name": {
+          "status": "found",
+          "value": "DISTRIBUTOR AGREEMENT",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 149,
+              "end": 170,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Document Name_0"
+            }
+          ]
+        },
+        "Parties": {
+          "status": "found",
+          "value": [
+            "European Micro",
+            "WatchGuard Technologies, Inc."
+          ],
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 339,
+              "end": 342,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Parties_0"
+            },
+            {
+              "paragraph": 0,
+              "start": 350,
+              "end": 364,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Parties_1"
+            },
+            {
+              "paragraph": 0,
+              "start": 367,
+              "end": 378,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Parties_2"
+            },
+            {
+              "paragraph": 0,
+              "start": 283,
+              "end": 312,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Parties_3"
+            }
+          ]
+        },
+        "Agreement Date": {
+          "status": "found",
+          "value": "1997-11-05",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 228,
+              "end": 244,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Agreement Date_0"
+            }
+          ]
+        },
+        "Effective Date": {
+          "status": "found",
+          "value": "1997-11-05",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 228,
+              "end": 244,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Effective Date_0"
+            }
+          ]
+        },
+        "Governing Law": {
+          "status": "found",
+          "value": "Washington, US",
+          "source_spans": [
+            {
+              "paragraph": 0,
+              "start": 51540,
+              "end": 51841,
+              "qa_id": "EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT__Governing Law_0"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "document_id": "synthetic-sample-agreement",
+  "status": "completed",
+  "extraction": {
+    "document_name": {
+      "status": "found",
+      "value": "SAMPLE SERVICES AGREEMENT",
+      "evidence": [
+        {
+          "quote": "SAMPLE SERVICES AGREEMENT",
+          "start": 0,
+          "end": 25,
+          "page": 1,
+          "occurrences": 1
+        }
+      ],
+      "issue": null
+    },
+    "parties": {
+      "status": "found",
+      "value": [
+        "Acme Ltd",
+        "Example Technologies"
+      ],
+      "evidence": [
+        {
+          "quote": "Acme Ltd and Example Technologies agree",
+          "start": 26,
+          "end": 65,
+          "page": 1,
+          "occurrences": 1
+        }
+      ],
+      "issue": null
+    },
+    "agreement_date": {
+      "status": "found",
+      "value": "2024-01-01",
+      "evidence": [
+        {
+          "quote": "agree on January 1, 2024.",
+          "start": 60,
+          "end": 85,
+          "page": 1,
+          "occurrences": 1
+        }
+      ],
+      "issue": null
+    },
+    "effective_date": {
+      "status": "ambiguous",
+      "value": null,
+      "evidence": [
+        {
+          "quote": "Effective upon first delivery.",
+          "start": 0,
+          "end": 30,
+          "page": 2,
+          "occurrences": 1
+        }
+      ],
+      "issue": null
+    },
+    "governing_law": {
+      "status": "found",
+      "value": "Illinois",
+      "evidence": [
+        {
+          "quote": "This agreement is governed by Illinois law.",
+          "start": 31,
+          "end": 74,
+          "page": 2,
+          "occurrences": 1
+        }
+      ],
+      "issue": null
+    }
+  },
+  "metadata": {
+    "model": "gpt-6-luna",
+    "source": "pdf:docling",
+    "prompt_version": "text-v2",
+    "elapsed_ms": 9240,
+    "input_tokens": 1134,
+    "output_tokens": 457,
+    "response_id": null
+  },
+  "error_code": null
+}

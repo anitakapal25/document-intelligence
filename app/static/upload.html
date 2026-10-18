@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document Intelligence Pilot</title>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; max-width: 760px; margin: 3rem auto; padding: 0 1rem; color: #17212b; }
+    h1 { line-height: 1.2; } .note { color: #4b5b68; }
+    form { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; padding: 1rem; border: 1px solid #b8c4cc; border-radius: .5rem; }
+    button { padding: .55rem .9rem; cursor: pointer; } pre { overflow: auto; padding: 1rem; background: #f2f5f7; border-radius: .5rem; }
+    #message { min-height: 1.5rem; } a { color: #165da8; }
+  </style>
+</head>
+<body>
+  <h1>Document Intelligence Pilot</h1>
+  <p class="note">Upload one listed CUAD or synthetic PDF (up to 10 MiB). Extraction may take a few minutes. Results contain five fields and source quotations.</p>
+  <form id="upload-form">
+    <label for="pdf">PDF</label><input id="pdf" name="file" type="file" accept="application/pdf,.pdf" required>
+    <button type="submit">Extract</button>
+  </form>
+  <p id="message" role="status" aria-live="polite"></p>
+  <p><a id="download" hidden download="extraction.json">Download JSON</a></p>
+  <pre id="result" hidden></pre>
+  <script>
+    const form = document.getElementById('upload-form');
+    const message = document.getElementById('message');
+    const result = document.getElementById('result');
+    const download = document.getElementById('download');
+    let objectUrl;
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      result.hidden = true;
+      download.hidden = true;
+      message.textContent = 'Processing PDF…';
+      const body = new FormData(form);
+      try {
+        const response = await fetch('/extract', { method: 'POST', body });
+        const data = await response.json();
+        result.textContent = JSON.stringify(data, null, 2);
+        result.hidden = false;
+        message.textContent = response.ok ? 'Extraction finished.' :
+          (data.detail?.message || data.error_code || 'Extraction could not finish.');
+        if (response.ok) {
+          if (objectUrl) URL.revokeObjectURL(objectUrl);
+          objectUrl = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' }));
+          download.href = objectUrl;
+          download.hidden = false;
+          download.textContent = 'Download JSON';
+        }
+      } catch (_) {
+        message.textContent = 'Request failed. Check the service connection and try again.';
+      }
+    });
+  </script>
+</body>
+</html>
