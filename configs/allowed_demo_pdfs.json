@@ -1,0 +1,25 @@
+{
+  "purpose": "Narrow first cloud deployment: three previously compared CUAD PDFs and synthetic sample",
+  "contracts": [
+    {
+      "document_id": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT",
+      "sha256": "e03d0686cb142eb38bab976194a7451a33601659ba0725e50f41e000d73a93b4",
+      "bytes": 77466
+    },
+    {
+      "document_id": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement3",
+      "sha256": "ef9e9ec52a71f617e360b3b3210f97eb9bb5da2385461c6f2334ed7044a943af",
+      "bytes": 113398
+    },
+    {
+      "document_id": "VIRGINGALACTICHOLDINGS,INC_04_08_2020-EX-99.1-JOINT FILING STATEMENT",
+      "sha256": "b7fa3791ee5448d03c477d5656bd0bf5f790260460beed9b02ffba6563e61f75",
+      "bytes": 73462
+    },
+    {
+      "document_id": "synthetic-sample-agreement",
+      "sha256": "9449733bee1543261e1d03a54156145b26430b052ae39f977b43cccbca090b82",
+      "bytes": 1017
+    }
+  ]
+}

@@ -1,12 +1,13 @@
 """API contract checks without paid model or parser calls."""
 
 import hashlib
+import os
 import unittest
 from unittest.mock import patch
 
 from fastapi.testclient import TestClient
 
-from app.api import MAX_UPLOAD_BYTES, app, get_budget
+from app.api import MAX_UPLOAD_BYTES, allowed_pdfs, app, get_budget
 from app.budget import BudgetExceeded, MemoryBudget, period_now
 from app.parsers import ParsedDocument, ParsedPage
 from app.schemas import Extraction, ExtractionRun, FieldStatus, PartiesField, RunMetadata, RunStatus, ScalarField
@@ -89,6 +90,32 @@ class ApiTests(unittest.TestCase):
         self.assertNotIn("private contract text", "\n".join(captured.output))
         self.assertNotIn("private contract text", response.text)
         self.assertEqual(self.budget.totals[period_now()]["reserved"], 0)
+
+
+class DemoScopeTests(unittest.TestCase):
+    def tearDown(self):
+        allowed_pdfs.cache_clear()
+
+    def test_demo_sample_and_excluded_documents(self):
+        with patch.dict(os.environ, {"PILOT_SCOPE": "development"}):
+            allowed_pdfs.cache_clear()
+            development = allowed_pdfs()
+        with patch.dict(os.environ, {"PILOT_SCOPE": "demo"}), TestClient(app) as client:
+            allowed_pdfs.cache_clear()
+            demo = allowed_pdfs()
+            self.assertEqual(len(demo), 4)
+            self.assertTrue(set(demo) < set(development))
+            self.assertEqual(client.get("/scope").json()["documents"], sorted(demo.values()))
+            sample = client.get("/sample.pdf")
+            self.assertEqual(sample.status_code, 200)
+            self.assertEqual(demo[hashlib.sha256(sample.content).hexdigest()],
+                             "synthetic-sample-agreement")
+
+    def test_unknown_scope_fails_closed(self):
+        with patch.dict(os.environ, {"PILOT_SCOPE": "typo"}):
+            allowed_pdfs.cache_clear()
+            with self.assertRaisesRegex(RuntimeError, "Unsupported PILOT_SCOPE"):
+                allowed_pdfs()
 
 
 if __name__ == "__main__":

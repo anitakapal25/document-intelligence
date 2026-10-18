@@ -15,6 +15,8 @@
 <body>
   <h1>Document Intelligence Pilot</h1>
   <p class="note">Upload one listed CUAD or synthetic PDF (up to 10 MiB). Extraction may take a few minutes. Results contain five fields and source quotations.</p>
+  <p><a href="/sample.pdf">Download the synthetic sample PDF</a></p>
+  <details><summary>Accepted documents</summary><ul id="accepted-documents"></ul></details>
   <form id="upload-form">
     <label for="pdf">PDF</label><input id="pdf" name="file" type="file" accept="application/pdf,.pdf" required>
     <button type="submit">Extract</button>
@@ -28,6 +30,14 @@
     const result = document.getElementById('result');
     const download = document.getElementById('download');
     let objectUrl;
+    fetch('/scope').then(response => response.json()).then(data => {
+      const list = document.getElementById('accepted-documents');
+      for (const name of data.documents) {
+        const item = document.createElement('li');
+        item.textContent = name;
+        list.appendChild(item);
+      }
+    }).catch(() => {});
     form.addEventListener('submit', async event => {
       event.preventDefault();
       result.hidden = true;

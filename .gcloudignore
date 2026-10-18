@@ -8,5 +8,8 @@
 !app/**
 !configs/
 !configs/allowed_pdfs.json
+!configs/allowed_demo_pdfs.json
+!examples/
+!examples/sample_agreement.pdf
 app/**/__pycache__/
 app/**/*.pyc

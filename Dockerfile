@@ -24,6 +24,8 @@ RUN docling-tools models download layout tableformer easyocr rapidocr --output-d
 
 COPY app ./app
 COPY configs/allowed_pdfs.json ./configs/allowed_pdfs.json
+COPY configs/allowed_demo_pdfs.json ./configs/allowed_demo_pdfs.json
+COPY examples/sample_agreement.pdf ./examples/sample_agreement.pdf
 
 RUN useradd --create-home --uid 10001 appuser
 USER appuser

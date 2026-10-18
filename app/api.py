@@ -3,13 +3,14 @@
 import hashlib
 import json
 import logging
+import os
 import tempfile
 import time
 from functools import lru_cache
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, File, HTTPException, UploadFile
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 
 from app.budget import BudgetExceeded, actual_micro_usd, make_budget
 from app.parsers import parse_pdf
@@ -26,7 +27,11 @@ app = FastAPI(title="Document Intelligence Pilot", version="0.6.0",
 
 @lru_cache(maxsize=1)
 def allowed_pdfs() -> dict[str, str]:
-    path = ROOT / "configs/allowed_pdfs.json"
+    scope = os.getenv("PILOT_SCOPE", "development")
+    if scope not in ("development", "demo"):
+        raise RuntimeError("Unsupported PILOT_SCOPE")
+    filename = "allowed_demo_pdfs.json" if scope == "demo" else "allowed_pdfs.json"
+    path = ROOT / "configs" / filename
     data = json.loads(path.read_text(encoding="utf-8"))
     return {item["sha256"]: item["document_id"] for item in data["contracts"]}
 
@@ -50,6 +55,18 @@ def index() -> HTMLResponse:
     html = (ROOT / "app/static/upload.html").read_text(encoding="utf-8")
     return HTMLResponse(html, headers={"Cache-Control": "no-store",
                                        "X-Content-Type-Options": "nosniff"})
+
+
+@app.get("/scope")
+def scope() -> dict:
+    return {"scope": os.getenv("PILOT_SCOPE", "development"),
+            "documents": sorted(allowed_pdfs().values())}
+
+
+@app.get("/sample.pdf")
+def sample_pdf() -> FileResponse:
+    return FileResponse(ROOT / "examples/sample_agreement.pdf", media_type="application/pdf",
+                        filename="sample_agreement.pdf")
 
 
 @app.post("/extract", response_model=ExtractionRun)

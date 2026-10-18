@@ -161,3 +161,9 @@ python -m venv .venv
 - Audited publication candidates and existing Git history for key material; excluded `.env`, virtual environments, raw datasets, and local outputs. Included code, reviewed references, aggregate reports, synthetic examples, and the demo.
 - Added `.gitattributes` to preserve exact file bytes across clones so the frozen experiment hashes remain valid. GitHub publication hosts the source; the running Cloud Run application is still not deployed.
 - Expanded `.gitignore` for local caches, coverage/build output, database files, logs, temporary/editor files, and conventional credential files. Kept benchmark manifests/references, reports, and synthetic demo artifacts tracked; no existing tracked file required removal.
+
+### 23. Prepare a narrow cloud demo
+- Chose four exact PDFs for the first synchronous deployment: three development comparison PDFs plus the synthetic example. `PILOT_SCOPE=demo` selects their SHA-256 allowlist; the larger local development list remains available.
+- Added an accepted-document list and synthetic sample download to the upload page. Unknown scope settings fail closed.
+- All 32 tests pass; frozen extraction source hashes remain unchanged. Cloud validation is pending and must cover every accepted demo PDF before declaring the upload flow ready.
+- Confirmed active Google Cloud billing, enabled deployment APIs, and created a dedicated runtime identity and default Firestore Native database in Mumbai. The user created the OpenAI secret in Secret Manager.

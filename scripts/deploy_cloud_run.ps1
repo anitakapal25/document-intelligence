@@ -24,7 +24,7 @@ $deployArgs = @(
     '--no-allow-unauthenticated',
     '--memory=4Gi', '--cpu=2', '--timeout=900', '--concurrency=1',
     '--min-instances=0', '--max-instances=2',
-    '--set-env-vars=BUDGET_BACKEND=firestore',
+    '--set-env-vars=BUDGET_BACKEND=firestore,PILOT_SCOPE=demo',
     "--set-secrets=OPENAI_API_KEY=${SecretName}:${SecretVersion}",
     "--service-account=$ServiceAccount"
 )
