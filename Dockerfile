@@ -20,7 +20,7 @@ RUN python -m pip install --upgrade pip \
     && python -m pip check
 
 # Keep default PDF layout/table/OCR models in the image so cold instances do not fetch them.
-RUN docling-tools models download layout tableformer easyocr rapidocr --output-dir /opt/docling-models
+RUN docling-tools models download layout tableformer rapidocr --output-dir /opt/docling-models
 
 COPY app ./app
 COPY configs/allowed_pdfs.json ./configs/allowed_pdfs.json
@@ -29,5 +29,7 @@ COPY examples/sample_agreement.pdf ./examples/sample_agreement.pdf
 
 RUN useradd --create-home --uid 10001 appuser
 USER appuser
+# Fail the build if the non-root runtime cannot load the prefetched PDF models.
+RUN HF_HUB_OFFLINE=1 python -c "from pathlib import Path; from app.parsers import parse_docling; document = parse_docling(Path('examples/sample_agreement.pdf')); assert document.pages and any(page.text for page in document.pages)"
 EXPOSE 8080
 CMD ["sh", "-c", "uvicorn app.api:app --host 0.0.0.0 --port ${PORT}"]
